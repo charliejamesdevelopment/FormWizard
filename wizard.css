@@ -1,0 +1,44 @@
+.wizard_form {
+    padding:20px;
+}
+
+.wizard_form_title {
+    margin-bottom:15px;
+    padding-bottom:15px;
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.wizard_pagination {
+    float:right;
+}
+
+.wizard_step {
+    float:left;
+}
+
+.wizard_form_pagination {
+    padding-top:30px;
+    min-height:100px;
+}
+
+.wizard_step {
+    color:#333;
+    padding:5px;
+    border-radius:5px;
+}
+
+.wizard_form_progress_bar_div {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.wizard_form_progress_bar {
+    width:100%;
+    background:#eee;
+    padding:10px;
+    border-right:2px solid #fff;
+}
+
+.wizard_form_progress_bar_active { 
+    background:#09f;   
+}
