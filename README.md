@@ -13,16 +13,19 @@ A easy-to-use form wizard / wizard jquery plugin integrating with the bootstrap 
     - Title CSS & Placement
 
 # Installation
+Use:
 ```
 <link rel="stylesheet" href="./wizard.css" />
 <script type="application/javascript" href="./wizard.js"></script>
 ```
 And you're done installing the library into your website.
 
-To initialise it,
-
-Defining a <section> tag creates a step, so if you had 5 sections, each section would be a step in the wizard.
-To title a section, so it appears just before the content inside a section, use title="your_title" in the <section> tag.
+Defining a *SECTION* tag creates a step, so if you had 5 sections, each SECTION would be a step in the wizard.
+To title a *SECTION*, so it appears just before the content inside a *SECTION*, use:
+```
+<section title="your title"></section>
+```
+To title a section!
 ```
 <form method="post" action="/">
    <section title="Title 1">
